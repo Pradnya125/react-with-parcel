@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  background: gray;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header nav ul {
+  justify-content: space-evenly;
+  list-style: none;
+  display: flex;
+}
+
+.header nav ul li {
+  padding: 10px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background: gray;
+  display: block;
+  position: fixed;
+  bottom: 0;
+}
+
+.container {
+  display: block;
+}
+
+.searchbox {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

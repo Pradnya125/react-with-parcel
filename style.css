@@ -1,0 +1,46 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+.header{
+  width:100%;
+  background:gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header nav ul li{
+  padding:10px;
+}
+
+.footer{
+  display: block;
+  width:100%;
+  position:fixed;
+  background:gray;
+  bottom: 0;
+  text-align: center;
+}
+
+.container{
+  display: block;
+  
+}
+.searchbox{
+  margin-top:20px;
+  text-align: center;
+}
+
